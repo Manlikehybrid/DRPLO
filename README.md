@@ -51,55 +51,55 @@ DRPLO is built around a different direction:
 
 A premium SaaS landing page built to position DRPLO like a real product.
 
-![Homepage](assets/screenshots/homepage.png)
+![Homepage](assets/homepage.png)
 
 ### Features
 
 A deeper product story showing how DRPLO reduces friction across the content workflow.
 
-![Features Page](assets/screenshots/features.png)
+![Features Page](assets/features.png)
 
 ### Pricing
 
 A pricing system designed to make the product feel commercially real and scalable.
 
-![Pricing Page](assets/screenshots/pricing.png)
+![Pricing Page](assets/pricing.png)
 
 ### Dashboard
 
 A full app-style dashboard showing metrics, recent drops, performance signals, and quick actions.
 
-![Dashboard](assets/screenshots/dashboard.png)
+![Dashboard](assets\dashboard.png)
 
 ### Create Drop
 
 A structured creation flow for moving from niche selection to publishing setup.
 
-![Create Drop](assets/screenshots/create-drop.png)
+![Create Drop](assets/create-drop.png)
 
 ### Content Library
 
 A centralized place for drafts, queued drops, published assets, and reusable content.
 
-![Content Library](assets/screenshots/content-library.png)
+![Content Library](assets/content-library.png)
 
 ### Scheduler
 
 A calendar-driven planning system for organizing content release rhythm.
 
-![Scheduler](assets/screenshots/scheduler.png)
+![Scheduler](assets/scheduler.png)
 
 ### Analytics
 
 A performance view built to highlight what is actually driving growth.
 
-![Analytics](assets/screenshots/analytics.png)
+![Analytics](assets/analytics.png)
 
 ### Settings
 
 A complete control layer for profile, workspace preferences, billing simulation, and integrations.
 
-![Settings](assets/screenshots/settings.png)
+![Settings](assets/settings.png)
 
 ---
 
