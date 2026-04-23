@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://your-netlify-link.netlify.app">Live Demo</a>
   ·
-  <a href="https://github.com/your-username/your-repo-name">Repository</a>
+  <a href="https:// github.com/manlikehybrid/your-repo-name">Repository</a>
 </p>
 
 ---

@@ -151,7 +151,7 @@
     }
   }
 
-  document.querySelectorAll('a[href="YOUR-GITHUB-LINK-HERE"], a[href="https://github.com/"]').forEach(a => {
+  document.querySelectorAll('a[href="https://github.com/Manlikehybrid"], a[href="https://github.com/"]').forEach(a => {
     a.href = 'https://github.com/manlikehybrid';
     a.target = '_blank';
     a.rel = 'noopener noreferrer';
