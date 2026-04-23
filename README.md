@@ -69,7 +69,7 @@ A pricing system designed to make the product feel commercially real and scalabl
 
 A full app-style dashboard showing metrics, recent drops, performance signals, and quick actions.
 
-![Dashboard](assets\dashboard.png)
+![Dashboard](assets/dashboard.png)
 
 ### Create Drop
 
