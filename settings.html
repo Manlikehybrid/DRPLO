@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>DRPLO — Settings</title>
+<meta content="Manage your DRPLO profile, workspace preferences, notifications, billing, and connected platforms." name="description"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800&amp;family=Barlow+Condensed:wght@700;800;900&amp;display=swap" rel="stylesheet"/>
+<link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+<div class="dashboard-page">
+<aside class="app-sidebar">
+<div class="app-sidebar-top">
+<a aria-label="DRPLO home" class="brand app-brand" href="index.html">
+<span class="brand-mark">D</span>
+<span class="brand-text">DRPLO</span>
+</a>
+<div class="workspace-card">
+<span class="workspace-kicker">Workspace</span>
+<strong>HybridGfx Studio</strong>
+<p>Pro Plan · 43 drops left</p>
+</div>
+</div>
+<nav aria-label="Dashboard navigation" class="app-nav">
+<a class="app-nav-item" href="dashboard.html">
+<span class="app-nav-icon">◉</span>
+<span>Overview</span>
+</a>
+<a class="app-nav-item" href="create-drop.html">
+<span class="app-nav-icon">✦</span>
+<span>Create Drop</span>
+</a>
+<a class="app-nav-item" href="content-library.html">
+<span class="app-nav-icon">▣</span>
+<span>Content Library</span>
+</a>
+<a class="app-nav-item" href="scheduler.html">
+<span class="app-nav-icon">◷</span>
+<span>Scheduler</span>
+</a>
+<a class="app-nav-item" href="analytics.html">
+<span class="app-nav-icon">◈</span>
+<span>Analytics</span>
+</a>
+<a class="app-nav-item active" href="settings.html">
+<span class="app-nav-icon">◎</span>
+<span>Settings</span>
+</a>
+</nav>
+<div class="engine-side-card">
+<span class="engine-side-kicker">Workspace Health</span>
+<div class="engine-side-score">94</div>
+<div class="engine-side-bar">
+<div class="engine-side-fill settings-fill"></div>
+</div>
+<p>Your workspace is fully configured for content planning, creation, and scheduling.</p>
+</div>
+<div class="sidebar-user">
+<div class="sidebar-user-avatar">H</div>
+<div>
+<strong>HybridGfx</strong>
+<span>Creator Workspace</span>
+</div>
+</div>
+</aside>
+<main class="app-main">
+<header class="app-topbar">
+<div>
+<p class="app-topbar-kicker">Settings</p>
+<h1>Control your workspace your way</h1>
+</div>
+<div class="app-topbar-actions">
+<div class="app-search">
+<input placeholder="Search settings, integrations, billing..." type="text"/>
+</div>
+<a class="btn btn-secondary" href="settings.html">Reset</a>
+<a class="btn btn-primary" href="settings.html">Save Changes</a>
+</div>
+</header>
+<section class="settings-hero-banner">
+<div class="settings-hero-copy">
+<span class="app-banner-kicker">Workspace Controls</span>
+<h2>Profile, billing, notifications, and platform connections in one place</h2>
+<p>
+            Keep your DRPLO environment clean and aligned with how you work, publish,
+            and manage your content system.
+          </p>
+</div>
+<div class="settings-hero-stats">
+<div class="settings-hero-stat">
+<strong>Pro</strong>
+<span>Current Plan</span>
+</div>
+<div class="settings-hero-stat">
+<strong>4</strong>
+<span>Connected Platforms</span>
+</div>
+<div class="settings-hero-stat">
+<strong>On</strong>
+<span>Notifications</span>
+</div>
+</div>
+</section>
+<section class="settings-main-grid">
+<div class="settings-left-column">
+<article class="app-panel">
+<div class="app-panel-head">
+<div>
+<span class="app-panel-kicker">Profile</span>
+<h3>Personal details</h3>
+</div>
+</div>
+<div class="settings-profile-card">
+<div class="settings-avatar">H</div>
+<div>
+<strong>HybridGfx</strong>
+<span>hybridgfx@example.com</span>
+</div>
+</div>
+<div class="settings-form-grid">
+<div class="form-group">
+<label for="settings-first-name">First name</label>
+<input id="settings-first-name" type="text" value="Hybrid"/>
+</div>
+<div class="form-group">
+<label for="settings-last-name">Last name</label>
+<input id="settings-last-name" type="text" value="Gfx"/>
+</div>
+<div class="form-group">
+<label for="settings-email">Email</label>
+<input id="settings-email" type="email" value="hybridgfx@example.com"/>
+</div>
+<div class="form-group">
+<label for="settings-role">Role</label>
+<select class="auth-select" id="settings-role">
+<option selected="">Creator</option>
+<option>Brand</option>
+<option>Agency</option>
+<option>Team</option>
+</select>
+</div>
+</div>
+</article>
+<article class="app-panel">
+<div class="app-panel-head">
+<div>
+<span class="app-panel-kicker">Workspace Preferences</span>
+<h3>How DRPLO behaves</h3>
+</div>
+</div>
+<div class="settings-options-list">
+<div class="settings-option-row">
+<div>
+<strong>Default content format</strong>
+<span>Choose the format DRPLO suggests first</span>
+</div>
+<select class="auth-select settings-inline-select">
+<option selected="">Fast-List</option>
+<option>Authority</option>
+<option>Storytelling</option>
+<option>Breaking News</option>
+</select>
+</div>
+<div class="settings-option-row">
+<div>
+<strong>Primary platform</strong>
+<span>Set the default publishing destination</span>
+</div>
+<select class="auth-select settings-inline-select">
+<option selected="">YouTube Shorts</option>
+<option>TikTok</option>
+<option>Instagram Reels</option>
+<option>X / Twitter</option>
+</select>
+</div>
+<div class="settings-option-row">
+<div>
+<strong>Auto-save drafts</strong>
+<span>Keep work saved while building drops</span>
+</div>
+<label class="settings-switch">
+<input checked="" type="checkbox"/>
+<span class="settings-slider"></span>
+</label>
+</div>
+<div class="settings-option-row">
+<div>
+<strong>Smart recommendations</strong>
+<span>Show format and timing suggestions</span>
+</div>
+<label class="settings-switch">
+<input checked="" type="checkbox"/>
+<span class="settings-slider"></span>
+</label>
+</div>
+</div>
+</article>
+<article class="app-panel">
+<div class="app-panel-head">
+<div>
+<span class="app-panel-kicker">Notifications</span>
+<h3>Stay updated without noise</h3>
+</div>
+</div>
+<div class="settings-options-list">
+<div class="settings-option-row">
+<div>
+<strong>Email notifications</strong>
+<span>Receive workspace and publishing updates</span>
+</div>
+<label class="settings-switch">
+<input checked="" type="checkbox"/>
+<span class="settings-slider"></span>
+</label>
+</div>
+<div class="settings-option-row">
+<div>
+<strong>Weekly performance digest</strong>
+<span>Get a summary of what worked best</span>
+</div>
+<label class="settings-switch">
+<input checked="" type="checkbox"/>
+<span class="settings-slider"></span>
+</label>
+</div>
+<div class="settings-option-row">
+<div>
+<strong>Schedule reminders</strong>
+<span>Be notified before planned drops go live</span>
+</div>
+<label class="settings-switch">
+<input type="checkbox"/>
+<span class="settings-slider"></span>
+</label>
+</div>
+</div>
+</article>
+</div>
+<div class="settings-right-column">
+<article class="app-panel">
+<div class="app-panel-head">
+<div>
+<span class="app-panel-kicker">Billing</span>
+<h3>Plan and usage</h3>
+</div>
+</div>
+<div class="billing-card">
+<div class="billing-plan">
+<strong>Pro Plan</strong>
+<span>$39/month · renews in 12 days</span>
+</div>
+<div class="billing-usage">
+<div class="billing-usage-row">
+<label>Drops Used</label>
+<span>17 / 60</span>
+</div>
+<div class="signal-track">
+<div class="signal-fill fill-34"></div>
+</div>
+</div>
+<div class="billing-actions">
+<a class="btn btn-secondary" href="pricing.html">Change Plan</a>
+<a class="btn btn-primary" href="pricing.html">Manage Billing</a>
+</div>
+</div>
+</article>
+<article class="app-panel">
+<div class="app-panel-head">
+<div>
+<span class="app-panel-kicker">Connected Platforms</span>
+<h3>Publishing integrations</h3>
+</div>
+</div>
+<div class="integration-list">
+<div class="integration-item">
+<div>
+<strong>YouTube</strong>
+<span>Connected and ready</span>
+</div>
+<span class="integration-status on">Connected</span>
+</div>
+<div class="integration-item">
+<div>
+<strong>Instagram</strong>
+<span>Connected and ready</span>
+</div>
+<span class="integration-status on">Connected</span>
+</div>
+<div class="integration-item">
+<div>
+<strong>TikTok</strong>
+<span>Connected and ready</span>
+</div>
+<span class="integration-status on">Connected</span>
+</div>
+<div class="integration-item">
+<div>
+<strong>X / Twitter</strong>
+<span>Awaiting full sync</span>
+</div>
+<span class="integration-status off">Pending</span>
+</div>
+</div>
+</article>
+<article class="app-panel">
+<div class="app-panel-head">
+<div>
+<span class="app-panel-kicker">Security</span>
+<h3>Account protection</h3>
+</div>
+</div>
+<div class="engine-note-list">
+<div class="engine-note-item">
+<strong>Password</strong>
+<span>Last updated 19 days ago</span>
+</div>
+<div class="engine-note-item">
+<strong>Two-factor authentication</strong>
+<span>Not enabled yet</span>
+</div>
+<div class="engine-note-item">
+<strong>Recovery email</strong>
+<span>Hybridgfx backup verified</span>
+</div>
+</div>
+<div class="billing-actions top-gap">
+<a class="btn btn-secondary" href="forgot-password.html">Reset Password</a>
+<a class="btn btn-primary" href="settings.html">Enable 2FA</a>
+</div>
+</article>
+<article class="app-panel">
+<div class="app-panel-head">
+<div>
+<span class="app-panel-kicker">Danger Zone</span>
+<h3>Critical actions</h3>
+</div>
+</div>
+<div class="danger-zone-card">
+<strong>Delete workspace</strong>
+<p>
+                Permanently remove your workspace, drafts, scheduled drops, and analytics data.
+              </p>
+<a class="btn btn-danger" href="settings.html">Delete Workspace</a>
+</div>
+</article>
+</div>
+</section>
+</main>
+</div>
+<script src="main.js"></script></body>
+</html>
