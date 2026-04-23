@@ -169,7 +169,7 @@ The focus was on:
 
 ## Project Structure
 
-```bash
+ bash
 .
 ├── index.html
 ├── features.html
@@ -190,7 +190,7 @@ The focus was on:
 ├── style.css
 ├── main.js
 └── assets/
-```
+ 
 
 ---
 
@@ -250,9 +250,9 @@ Planned next steps include:
 
 Clone the project and open `index.html` in your browser.
 
-```bash
+ bash
 git clone https://github.com/manlikehybrid/DRPLO.git
-```
+ 
 
 Then open the folder in Visual Studio Code and launch with Live Server or open the HTML files directly.
 
@@ -270,10 +270,10 @@ Add your deployed Netlify link here:
 
 Create a folder like this:
 
-```bash
+ bash
 assets/
 └── screenshots/
-```
+ 
 
 Then add screenshots with names like:
 
